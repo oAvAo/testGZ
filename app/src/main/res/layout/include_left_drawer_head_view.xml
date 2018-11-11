@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d50"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/d8">
+
+        <ImageView
+            android:id="@+id/iv_user_avatar"
+            android:layout_width="@dimen/d50"
+            android:layout_height="@dimen/d50"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/iv_user_avatar"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/d8"
+            android:paddingRight="@dimen/d8"
+            android:text="请登陆"
+            android:textSize="@dimen/s14" />
+
+        <ImageView
+            android:id="@+id/iv_scan"
+            android:layout_width="@dimen/d50"
+            android:layout_height="@dimen/d50"
+            android:layout_toLeftOf="@id/iv_close_drawer"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/iv_close_drawer"
+            android:layout_width="@dimen/d50"
+            android:layout_height="@dimen/d50"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/ic_launcher" />
+    </RelativeLayout>
+</merge>

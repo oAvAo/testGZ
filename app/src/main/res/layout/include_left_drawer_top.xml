@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--8个快捷入口-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d100"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_home"
+            style="@style/ll_left_drawer_top">
+
+            <ImageView
+                style="@style/iv_left_drawer_top"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                style="@style/tv_left_drawer_top"
+                android:text="首页" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_find"
+            style="@style/ll_left_drawer_top">
+
+            <ImageView
+                style="@style/iv_left_drawer_top"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                style="@style/tv_left_drawer_top"
+                android:text="首页" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_phone_discussion"
+            style="@style/ll_left_drawer_top">
+
+            <ImageView
+                style="@style/iv_left_drawer_top"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                style="@style/tv_left_drawer_top"
+                android:text="首页" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_evaluation"
+            style="@style/ll_left_drawer_top">
+
+            <ImageView
+                style="@style/iv_left_drawer_top"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                style="@style/tv_left_drawer_top"
+                android:text="首页" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d100"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_product_suggestion"
+            style="@style/ll_left_drawer_top">
+
+            <ImageView
+                style="@style/iv_left_drawer_top"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                style="@style/tv_left_drawer_top"
+                android:text="首页" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_star_club"
+            style="@style/ll_left_drawer_top">
+
+            <ImageView
+                style="@style/iv_left_drawer_top"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                style="@style/tv_left_drawer_top"
+                android:text="首页" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_mall"
+            style="@style/ll_left_drawer_top">
+
+            <ImageView
+                style="@style/iv_left_drawer_top"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                style="@style/tv_left_drawer_top"
+                android:text="首页" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_photograph"
+            style="@style/ll_left_drawer_top">
+
+            <ImageView
+                style="@style/iv_left_drawer_top"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                style="@style/tv_left_drawer_top"
+                android:text="首页" />
+        </LinearLayout>
+
+    </LinearLayout>
+</merge>

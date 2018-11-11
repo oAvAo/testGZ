@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--侧滑抽屉中8个快捷入口样式-->
+    <style name="ll_left_drawer_top">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/d0</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">@dimen/d70</item>
+    </style>
+
+    <style name="iv_left_drawer_top">
+        <item name="android:layout_width">@dimen/d40</item>
+        <item name="android:layout_height">@dimen/d40</item>
+    </style>
+
+    <style name="tv_left_drawer_top">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/d5</item>
+    </style>
+</resources>
