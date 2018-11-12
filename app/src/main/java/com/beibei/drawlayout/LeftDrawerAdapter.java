@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -18,7 +19,7 @@ import java.util.List;
  * @author anbeibei
  */
 public class LeftDrawerAdapter extends RecyclerView.Adapter<LeftDrawerAdapter.ViewHolder> {
-    private List<String> mListData;
+    private List<String> mListData = new ArrayList<>();
 
     @Override
     public LeftDrawerAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
