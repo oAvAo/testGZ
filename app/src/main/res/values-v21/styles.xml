@@ -1,0 +1,6 @@
+<resources>
+    <!--点击水波纹效果-->
+    <style name="selectable_item_background">
+        <item name="android:background">?android:selectableItemBackgroundBorderless</item>
+    </style>
+</resources>

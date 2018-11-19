@@ -27,4 +27,499 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/d5</item>
     </style>
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+    <!--设置-全屏 windowBackground 为默认 -->
+    <style name="FullScreenTheme" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!--&lt;!&ndash;设置-全屏 windowBackground 为启动图&ndash;&gt;-->
+    <!--<style name="SplashTheme" parent="FullScreenTheme">-->
+        <!--<item name="android:windowBackground">@mipmap/splash</item>-->
+    <!--</style>-->
+
+    <style name="MyRadioButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/base_theme_sec</item>
+        <item name="colorControlNormal">@color/color_text_unimportant</item>
+    </style>
+    <!--点击水波纹效果-->
+    <style name="selectable_item_background">
+        <item name="android:background">?android:selectableItemBackground</item>
+    </style>
+
+
+    <!--&lt;!&ndash;横向分隔线&ndash;&gt;-->
+    <!--<style name="Horizontal_Line">-->
+        <!--<item name="android:layout_height">0.5dp</item>-->
+        <!--<item name="android:layout_width">match_parent</item>-->
+        <!--<item name="android:background">@color/color_line_horizontal</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash;竖向分割线&ndash;&gt;-->
+    <!--<style name="Vertical_Line">-->
+        <!--<item name="android:layout_width">0.5dp</item>-->
+        <!--<item name="android:layout_height">match_parent</item>-->
+        <!--<item name="android:background">@color/color_line_vertical</item>-->
+    <!--</style>-->
+
+
+    <!--&lt;!&ndash;首页按钮&ndash;&gt;-->
+    <!--<style name="TV_Home">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textColor">@color/color_text_content</item>-->
+        <!--<item name="android:layout_marginTop">@dimen/d10</item>-->
+        <!--<item name="android:textSize">@dimen/s12</item>-->
+    <!--</style>-->
+
+    <!--<style name="TV_Home1">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textColor">#ccc</item>-->
+        <!--<item name="android:textSize">@dimen/s10</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash;<style name="LL_Btn">&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_width">@dimen/d0</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_height">match_parent</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_weight">1</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:gravity">center</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:orientation">vertical</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:background">@drawable/white_ripple</item>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;</style>&ndash;&gt;-->
+
+    <!--<style name="LL_Btn1">-->
+        <!--<item name="android:layout_width">@dimen/d0</item>-->
+        <!--<item name="android:layout_height">match_parent</item>-->
+        <!--<item name="android:layout_weight">1</item>-->
+        <!--<item name="android:gravity">center_vertical</item>-->
+        <!--<item name="android:orientation">vertical</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash;<style name="tv_home">&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:gravity">center_vertical</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_width">match_parent</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_height">40dp</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:textColor">@color/color_text_important</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:textSize">14sp</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:drawableRight">@mipmap/ic_next</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:paddingLeft">@dimen/d15</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:paddingRight">@dimen/d15</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:background">?android:attr/selectableItemBackground</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;</style>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;&lt;!&ndash;我的界面textview&ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;<style name="MineTextView">&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:gravity">center_vertical</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_width">match_parent</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_height">50dp</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:textColor">@color/color_text_content</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:textSize">14sp</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:drawablePadding">10dp</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:drawableRight">@mipmap/ic_next</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:paddingLeft">@dimen/d15</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:paddingRight">@dimen/d15</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:background">?android:attr/selectableItemBackground</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;</style>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;必填星样式&ndash;&gt;-->
+    <!--<style name="start">-->
+        <!--<item name="android:gravity">center_vertical</item>-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textColor">@color/color_red</item>-->
+        <!--<item name="android:textSize">@dimen/s14</item>-->
+        <!--<item name="android:layout_centerVertical">true</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash;我的个人信息条样式&ndash;&gt;-->
+    <!--<style name="mine_info_1">-->
+        <!--<item name="android:gravity">center_vertical</item>-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textColor">@color/color_text_content</item>-->
+        <!--<item name="android:textSize">@dimen/s14</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash;我的个人信息条样式&ndash;&gt;-->
+    <!--<style name="mine_info_2">-->
+        <!--<item name="android:gravity">right</item>-->
+        <!--<item name="android:layout_width">@dimen/d0</item>-->
+        <!--<item name="android:layout_weight">1</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:ellipsize">end</item>-->
+        <!--<item name="android:maxLines">1</item>-->
+        <!--<item name="android:paddingLeft">@dimen/d10</item>-->
+        <!--<item name="android:paddingRight">@dimen/d10</item>-->
+        <!--<item name="android:textColor">@color/color_text_important</item>-->
+        <!--<item name="android:textSize">@dimen/s14</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash;我的个人信息条样式3&ndash;&gt;-->
+    <!--<style name="mine_info_3">-->
+        <!--<item name="android:gravity">right</item>-->
+        <!--<item name="android:layout_width">@dimen/d0</item>-->
+        <!--<item name="android:layout_weight">1</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:ellipsize">end</item>-->
+        <!--<item name="android:maxLines">2</item>-->
+        <!--<item name="android:paddingLeft">@dimen/d10</item>-->
+        <!--<item name="android:paddingRight">@dimen/d10</item>-->
+        <!--<item name="android:textColor">@color/color_text_important</item>-->
+        <!--<item name="android:textSize">@dimen/s14</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash;&lt;!&ndash;我的个人信息条样式&ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;<style name="ll_mine_info_3">&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:gravity">center_vertical</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_width">match_parent</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:paddingLeft">@dimen/d16</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:background">@drawable/bg_white_click_wave</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_height">@dimen/d46</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:paddingRight">@dimen/d16</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;</style>&ndash;&gt;-->
+
+
+    <!--&lt;!&ndash;&lt;!&ndash;按钮样式&ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;<style name="Button">&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_width">match_parent</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_height">@dimen/d46</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:background">@drawable/shape_bt_theme</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:textSize">@dimen/s16</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:textColor">@color/color_white</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;</style>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;&lt;!&ndash;排查任务界面&ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;<style name="ll_trouble_shoot">&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:gravity">center_vertical</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_width">match_parent</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:paddingLeft">@dimen/d16</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:background">@drawable/bg_white_click_wave</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_height">@dimen/d70</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:paddingRight">@dimen/d16</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;</style>&ndash;&gt;-->
+
+    <!--<style name="ll_trouble_shoot_inner">-->
+        <!--<item name="android:orientation">vertical</item>-->
+        <!--<item name="android:layout_width">@dimen/d0</item>-->
+        <!--<item name="android:layout_marginLeft">@dimen/d16</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:layout_weight">1</item>-->
+    <!--</style>-->
+
+    <!--<style name="iv_30">-->
+        <!--<item name="android:layout_width">@dimen/d30</item>-->
+        <!--<item name="android:layout_height">@dimen/d30</item>-->
+    <!--</style>-->
+
+
+    <!--&lt;!&ndash;common&ndash;&gt;-->
+    <!--<style name="tv_s14_white">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textColor">@color/color_white</item>-->
+        <!--<item name="android:textSize">@dimen/s14</item>-->
+    <!--</style>-->
+
+    <!--<style name="tv_s14_important">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textColor">@color/color_text_important</item>-->
+        <!--<item name="android:textSize">@dimen/s14</item>-->
+    <!--</style>-->
+
+    <!--<style name="tv_s14_content">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textColor">@color/color_text_content</item>-->
+        <!--<item name="android:textSize">@dimen/s14</item>-->
+    <!--</style>-->
+
+    <style name="tv_s14_unimportant">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_text_unimportant</item>
+        <item name="android:textSize">@dimen/s14</item>
+    </style>
+
+    <!--<style name="tv_s12_white">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textColor">@color/color_white</item>-->
+        <!--<item name="android:textSize">@dimen/s12</item>-->
+    <!--</style>-->
+
+    <!--<style name="tv_s12_important">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textColor">@color/color_text_important</item>-->
+        <!--<item name="android:textSize">@dimen/s12</item>-->
+    <!--</style>-->
+
+    <!--<style name="tv_s12_content">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textColor">@color/color_text_content</item>-->
+        <!--<item name="android:textSize">@dimen/s12</item>-->
+    <!--</style>-->
+
+    <!--<style name="tv_s12_unimportant">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textColor">@color/color_text_unimportant</item>-->
+        <!--<item name="android:textSize">@dimen/s12</item>-->
+    <!--</style>-->
+
+    <!--<style name="tv_s10_white">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textColor">@color/color_white</item>-->
+        <!--<item name="android:textSize">@dimen/s10</item>-->
+    <!--</style>-->
+
+    <!--<style name="tv_s10_important">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textColor">@color/color_text_important</item>-->
+        <!--<item name="android:textSize">@dimen/s10</item>-->
+    <!--</style>-->
+
+    <!--<style name="tv_s10_content">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textColor">@color/color_text_content</item>-->
+        <!--<item name="android:textSize">@dimen/s10</item>-->
+    <!--</style>-->
+
+    <!--<style name="tv_s10_unimportant">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textColor">@color/color_text_unimportant</item>-->
+        <!--<item name="android:textSize">@dimen/s10</item>-->
+    <!--</style>-->
+
+    <!--<style name="weekIndicatorStyle">-->
+        <!--<item name="android:layout_width">0dp</item>-->
+        <!--<item name="android:layout_height">match_parent</item>-->
+        <!--<item name="android:layout_weight">1</item>-->
+        <!--<item name="android:gravity">center</item>-->
+        <!--<item name="android:textSize">13sp</item>-->
+        <!--<item name="android:textColor">@color/color_text_unimportant</item>-->
+    <!--</style>-->
+
+    <!--<style name="tv_work_sign_hint">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:layout_marginTop">@dimen/d15</item>-->
+        <!--<item name="android:textStyle">bold</item>-->
+        <!--<item name="android:textSize">@dimen/s12</item>-->
+        <!--<item name="android:textColor">@color/color_text_important</item>-->
+    <!--</style>-->
+
+    <!--<style name="tv_data_maintain_hint">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textSize">@dimen/s14</item>-->
+        <!--<item name="android:paddingRight">@dimen/d16</item>-->
+        <!--<item name="android:textColor">@color/color_text_content</item>-->
+    <!--</style>-->
+    <!--<style name="ll_data_maintain_item">-->
+        <!--<item name="android:layout_width">match_parent</item>-->
+        <!--<item name="android:layout_height">@dimen/d40</item>-->
+        <!--<item name="android:gravity">center</item>-->
+    <!--</style>-->
+
+    <!--<style name="tv_data_maintain_hint1">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:textSize">@dimen/s14</item>-->
+        <!--<item name="android:textColor">@color/color_text_content</item>-->
+    <!--</style>-->
+
+    <!--<style name="et_data_maintain_hint">-->
+        <!--<item name="android:layout_width">@dimen/d0</item>-->
+        <!--<item name="android:layout_height">match_parent</item>-->
+        <!--<item name="android:layout_weight">1</item>-->
+        <!--<item name="android:background">@null</item>-->
+        <!--<item name="android:gravity">center_vertical|right</item>-->
+        <!--<item name="android:hint">请输入</item>-->
+        <!--<item name="android:textSize">@dimen/s14</item>-->
+        <!--<item name="android:maxLength">15</item>-->
+        <!--<item name="android:textColor">@color/color_text_content</item>-->
+    <!--</style>-->
+
+    <!--<style name="et_data_maintain_hint2">-->
+        <!--<item name="android:layout_width">@dimen/d0</item>-->
+        <!--<item name="android:layout_height">match_parent</item>-->
+        <!--<item name="android:layout_weight">1</item>-->
+        <!--<item name="android:background">@null</item>-->
+        <!--<item name="android:gravity">center_vertical|right</item>-->
+        <!--<item name="android:hint">请输入</item>-->
+        <!--<item name="android:textSize">@dimen/s14</item>-->
+        <!--<item name="android:maxLength">30</item>-->
+        <!--<item name="android:textColor">@color/color_text_content</item>-->
+    <!--</style>-->
+
+
+    <!--<style name="et_data_maintain_hint3">-->
+        <!--<item name="android:layout_width">@dimen/d0</item>-->
+        <!--<item name="android:layout_height">match_parent</item>-->
+        <!--<item name="android:layout_weight">1</item>-->
+        <!--<item name="android:background">@null</item>-->
+        <!--<item name="android:gravity">center_vertical|right</item>-->
+        <!--<item name="android:hint">请输入</item>-->
+        <!--<item name="android:textSize">@dimen/s14</item>-->
+        <!--<item name="android:maxLength">18</item>-->
+        <!--<item name="android:textColor">@color/color_text_content</item>-->
+    <!--</style>-->
+
+    <!--<style name="tv_data_maintain_select">-->
+        <!--<item name="android:layout_width">@dimen/d0</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:layout_weight">1</item>-->
+        <!--<item name="android:textSize">@dimen/s14</item>-->
+        <!--<item name="android:text">否</item>-->
+        <!--<item name="android:hint">请选择</item>-->
+        <!--<item name="android:textColor">@color/color_text_content</item>-->
+        <!--<item name="android:gravity">center_vertical|right</item>-->
+    <!--</style>-->
+
+    <!--<style name="tv_data_maintain_select1">-->
+        <!--<item name="android:layout_width">@dimen/d0</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:layout_weight">1</item>-->
+        <!--<item name="android:textSize">@dimen/s14</item>-->
+        <!--<item name="android:hint">请选择</item>-->
+        <!--<item name="android:textColor">@color/color_text_content</item>-->
+        <!--<item name="android:gravity">center_vertical|right</item>-->
+    <!--</style>-->
+
+    <!--<style name="tv_data_maintain_select2">-->
+        <!--<item name="android:layout_width">@dimen/d0</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:layout_weight">1</item>-->
+        <!--<item name="android:textSize">@dimen/s14</item>-->
+        <!--<item name="android:textColor">@color/color_text_content</item>-->
+        <!--<item name="android:gravity">center_vertical|right</item>-->
+    <!--</style>-->
+
+    <!--<style name="ll_data_info">-->
+        <!--<item name="android:layout_width">match_parent</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:layout_marginLeft">@dimen/d16</item>-->
+        <!--<item name="android:layout_marginRight">@dimen/d16</item>-->
+        <!--<item name="android:layout_marginTop">@dimen/d12</item>-->
+        <!--<item name="android:layout_marginBottom">@dimen/d12</item>-->
+        <!--<item name="android:background">@color/color_white</item>-->
+        <!--<item name="android:orientation">vertical</item>-->
+        <!--<item name="android:paddingLeft">@dimen/d16</item>-->
+        <!--<item name="android:paddingRight">@dimen/d16</item>-->
+    <!--</style>-->
+    <!--<style name="ll_data_info1">-->
+        <!--<item name="android:layout_width">match_parent</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:layout_marginLeft">@dimen/d16</item>-->
+        <!--<item name="android:layout_marginRight">@dimen/d16</item>-->
+        <!--<item name="android:layout_marginBottom">@dimen/d12</item>-->
+        <!--<item name="android:background">@color/color_white</item>-->
+        <!--<item name="android:orientation">vertical</item>-->
+        <!--<item name="android:paddingLeft">@dimen/d16</item>-->
+        <!--<item name="android:paddingRight">@dimen/d16</item>-->
+    <!--</style>-->
+
+    <!--<style name="tv_data_important_hint">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">@dimen/d40</item>-->
+        <!--<item name="android:gravity">center_vertical</item>-->
+        <!--<item name="android:text">重要信息</item>-->
+        <!--<item name="android:textColor">@color/base_theme</item>-->
+        <!--<item name="android:textSize">@dimen/s14</item>-->
+        <!--<item name="android:textStyle">bold</item>-->
+    <!--</style>-->
+
+    <!--<style name="tv_data_unimportant_hint">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">@dimen/d40</item>-->
+        <!--<item name="android:gravity">center_vertical</item>-->
+        <!--<item name="android:text">其他信息</item>-->
+        <!--<item name="android:textColor">@color/base_theme</item>-->
+        <!--<item name="android:textSize">@dimen/s14</item>-->
+        <!--<item name="android:textStyle">bold</item>-->
+    <!--</style>-->
+
+    <!--<style name="ll_data_item">-->
+        <!--<item name="android:layout_width">match_parent</item>-->
+        <!--<item name="android:layout_height">@dimen/d40</item>-->
+        <!--<item name="android:gravity">center</item>-->
+    <!--</style>-->
+
+    <!--<style name="scroll_view_data">-->
+        <!--<item name="android:layout_width">match_parent</item>-->
+        <!--<item name="android:layout_height">match_parent</item>-->
+        <!--<item name="android:overScrollMode">never</item>-->
+        <!--<item name="android:scrollbars">none</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash;<style name="tv_search_select">&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_width">match_parent</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:layout_height">@dimen/d30</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:background">@drawable/shape_bt_circle_round</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:drawableRight">@mipmap/open</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:gravity">center_vertical</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:hint">请选择</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:paddingLeft">@dimen/d8</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:paddingRight">@dimen/d8</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;</style>&ndash;&gt;-->
+
+    <!--<style name="tv_search_hint">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">@dimen/d30</item>-->
+        <!--<item name="android:textColor">@color/color_text_unimportant</item>-->
+        <!--<item name="android:textSize">@dimen/s12</item>-->
+        <!--<item name="android:gravity">center_vertical</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash;app更新进度条&ndash;&gt;-->
+    <!--<style name="UpdateAppNumberProgressBar_Red">-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:layout_width">match_parent</item>-->
+
+        <!--<item name="progress_max">100</item>-->
+        <!--<item name="progress_current">0</item>-->
+
+        <!--<item name="progress_unreached_color">#CCCCCC</item>-->
+        <!--<item name="progress_reached_color">#e94339</item>-->
+
+        <!--<item name="progress_text_size">12sp</item>-->
+        <!--<item name="progress_text_color">#e94339</item>-->
+
+        <!--<item name="progress_reached_bar_height">4dp</item>-->
+        <!--<item name="progress_unreached_bar_height">3dp</item>-->
+    <!--</style>-->
+
+    <!--<style name="MyCheckBox" parent="Theme.AppCompat.Light">-->
+        <!--<item name="colorControlNormal">@color/color_text_unimportant</item>-->
+        <!--<item name="colorControlActivated">@color/base_theme</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash;聊天相关的按钮&ndash;&gt;-->
+    <!--<style name="btn_chat">-->
+        <!--<item name="android:layout_width">match_parent</item>-->
+        <!--<item name="android:layout_height">@dimen/d46</item>-->
+        <!--<item name="android:layout_marginLeft">@dimen/d16</item>-->
+        <!--<item name="android:layout_marginRight">@dimen/d16</item>-->
+        <!--<item name="android:textSize">@dimen/s16</item>-->
+        <!--<item name="android:textColor">@color/color_white</item>-->
+        <!--<item name="android:background">@drawable/shape_login_button_blue</item>-->
+    <!--</style>-->
 </resources>

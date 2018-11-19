@@ -53,4 +53,56 @@
     <color name="timeline_darker_gray">#aaa</color>
     <color name="clock_map_shape_grey">#c8c8c8</color>
     <color name="color_red_pure">#F43530</color>
+
+
+    <!--聊天界面-->
+    <color name="chat_background">#d3d3d3</color>
+
+    <color name="color_wave">#5FB4E6</color>
+    <color name="color_wave_text">#5FD08F</color>
+    <color name="color_wave_light">#DAF2FF</color>
+    <color name="color_spread">#11418EFF</color>
+
+    <color name="color_voice_bg_red">#ee923432</color>
+    <color name="color_orange">#E4772B</color>
+
+    <!--分割线-->
+    <color name="tab_color_red">#d81e06</color>
+    <color name="tab_color_gray">#8a8a8a</color>
+
+    <color name="corpus_status_success">#5FD08F</color>
+    <color name="corpus_status_review">#F8CB56</color>
+    <color name="corpus_status_fail">#F2725E</color>
+    <color name="corpus_status_no_review">#C5D2E3</color>
+
+
+    <color name="task_txt_red">#FF5761</color>
+    <color name="task_txt_black">#151515</color>
+
+    <color name="gradient_start_color">@color/color_purse</color>
+    <color name="gradient_middle_color">@color/base_theme</color>
+    <color name="gradient_end_color">#FF52CEF1</color>
+
+
+    <!--takephoto-修改状态栏和toolbar颜色-->
+    <color name="multiple_image_select_primaryDark">@color/base_theme</color>
+    <color name="multiple_image_select_accent">@color/base_theme</color>
+    <color name="multiple_image_select_primary">@color/base_theme</color>
+
+    <color name="drawable_grey">#CBCBCB</color>
+
+    <color name="circle_color_light_blue">#FFAABBEA</color>
+    <color name="circle_color_blue">@color/base_theme</color>
+
+    <!--登陆-->
+    <color name="color_btn_start">#6c89ff</color>
+    <color name="color_btn_end">#1eb8ee</color>
+    <color name="color_btn_start_half">#996c89ff</color>
+    <color name="color_btn_end_half">#991eb8ee</color>
+
+    <color name="color_btn_orange_start">#fabd2b</color>
+    <color name="color_btn_orange_end">#f69600</color>
+    <color name="color_btn_orange_start_half">#99fabd2b</color>
+    <color name="color_btn_orange_end_half">#99f69600</color>
+
 </resources>
