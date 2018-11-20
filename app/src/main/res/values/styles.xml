@@ -507,10 +507,10 @@
         <!--<item name="progress_unreached_bar_height">3dp</item>-->
     <!--</style>-->
 
-    <!--<style name="MyCheckBox" parent="Theme.AppCompat.Light">-->
-        <!--<item name="colorControlNormal">@color/color_text_unimportant</item>-->
-        <!--<item name="colorControlActivated">@color/base_theme</item>-->
-    <!--</style>-->
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/color_text_unimportant</item>
+        <item name="colorControlActivated">@color/base_theme</item>
+    </style>
 
     <!--&lt;!&ndash;聊天相关的按钮&ndash;&gt;-->
     <!--<style name="btn_chat">-->
